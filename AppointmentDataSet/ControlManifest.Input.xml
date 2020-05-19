@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="klophaffed" constructor="AppointmentDataSet" version="0.0.1" display-name-key="AppointmentDataSet" description-key="AppointmentDataSet description" control-type="standard">
+    <!-- dataset node represents a set of entity records on CDS; allow more than one datasets -->
+    <data-set name="sampleDataSet" display-name-key="Dataset_Display_Key">
+
+    </data-set>
+    <resources>
+      <code path="index.ts" order="1"/>
+            <css path="styles.css" order="1"/>
+
+    </resources>
+
+  </control>
+</manifest>

@@ -1,0 +1,39 @@
+.graph-control-container {
+  display: flex;
+  height: 25vh;
+  max-height: 25vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.option-set-container {
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "left right";
+}
+
+.month-option-set {
+  grid-area: left;
+}
+
+.test-option-set {
+  grid-area: right;
+}
+
+.graph-container {
+  justify-content: center;
+  padding-top: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 25vh;
+}
+
+/* .LineGraph {
+  height: 60vh;
+} */
+
+/* .chartjs-render-monitor {
+  width: 80vw;
+  height: 80vh;
+} */
